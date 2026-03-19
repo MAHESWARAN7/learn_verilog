@@ -1,0 +1,32 @@
+# ==========================================
+# UNIVERSAL VERILOG .GITIGNORE
+# ==========================================
+
+# 1. Icarus Verilog Compiled Binaries (The Uniforms)
+*.out
+*.vvp
+*.bin
+
+# 2. Simulation Waveforms (The heavy visual files)
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.dump
+
+# 3. Text Editors and OS Junk (VS Code / Linux)
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# 4. Vivado / Xilinx Temporary Files (For future use)
+.Xil/
+*.jou
+*.log
+*.pb
+*.wdf
+*.dir/
+*.cache/
+*.sim/
+*.runs/
